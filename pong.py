@@ -58,7 +58,7 @@ class Pong:
         pen.write(scores, align='center', font=('Courier', 20))
 
     def ghosts(self, players):
-        from random import randint as d, choice
+        from random import choice
         paddles = [self.paddleA]
         if players == '0':
             paddles.append(self.paddleB)
